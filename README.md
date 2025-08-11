@@ -47,7 +47,7 @@
   </nav>
 
   <div class="tab-content">
-    <div id="download" class="tab-pane">
+   <div id="download" class="tab-pane">
       <h2>Tải ứng dụng</h2>
       <div class="game-card">
         <img src="https://i.ibb.co/MxfJN8NF/Cloud-Vip.png" alt="App Icon">
@@ -171,7 +171,6 @@
       <iframe src="https://notevn.com"></iframe>
       <p>Hướng dẫn: Ấn vào dấu cộng và ghi những gì muốn chuyển vào cloud và ấn vào icon bút và đặt tên cho ghi chú muốn chuyển là xong việc còn lại vào cloud truy cập web này và nhập lại tên ghi chú vừa đặt thì sẽ hiện vẵn bản bạn muốn chuyển</p>
     </div>
-  </div>
   
   <div id="howtousevpn" class="tab-pane">
       <h2>Cách sử dụng thiết bị VPN</h2>
