@@ -34,28 +34,86 @@
 </head>
 <body>
   <header>
-    <h1>Ứng dụng Cloud VIP</h1>
-    <p>Cloud Game VIP x Now.gg siu vip</p>
+    <h1>Ứng dụng Cloud VIP</h1>
+    <p>Cloud Game VIP x Now.gg siêu vip</p>
   </header>
 
-  <nav>
-    <a href="#" onclick="openTab('download')">Tải App</a>
-    <a href="#" onclick="openTab('hack')">Hack roblox</a>
-    <a href="#" onclick="openTab('updates')">Cập nhật</a>
-    <a href="#" onclick="openTab('note')">Gửi văn bản và sao chép</a>
-    <a href="#" onclick="openTab('howtousevpn')">Cách sử dụng thiết bị VPN</a>
-  </nav>
+  
+<!-- Floating Menu Button -->
+<nav class="menu">
+  <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+  <div class="menu-links" id="menuLinks">
+    <a href="#" onclick="openTab('download');toggleMenu()">Tải App</a>
+    <a href="#" onclick="openTab('hack');toggleMenu()">Hack Roblox</a>
+    <a href="#" onclick="openTab('updates');toggleMenu()">Cập nhật</a>
+    <a href="#" onclick="openTab('note');toggleMenu()">Gửi văn bản</a>
+    <a href="#" onclick="openTab('howtousevpn');toggleMenu()">Cách dùng VPN</a>
+  </div>
+</nav>
+
+<style>
+.menu {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+}
+.menu-toggle {
+  background:#0ff;
+  color:#000;
+  border:none;
+  width:50px;
+  height:50px;
+  font-size:1.5em;
+  font-weight:bold;
+  border-radius:50%;
+  cursor:pointer;
+  box-shadow:0 0 10px #0ff;
+}
+.menu-links {
+  display:none;
+  flex-direction:column;
+  gap:10px;
+  position: absolute;
+  bottom: 60px;
+  right: 0;
+  background:rgba(0,0,0,0.8);
+  padding:10px;
+  border-radius:10px;
+  box-shadow:0 0 10px #0ff;
+}
+.menu-links a {
+  text-decoration:none;
+  color:#0ff;
+  font-weight:bold;
+  background:rgba(0,0,0,0.5);
+  padding:8px 15px;
+  border-radius:8px;
+  transition:0.3s;
+}
+.menu-links a:hover {
+  background:#0ff;
+  color:#000;
+}
+</style>
+
+<script>
+function toggleMenu(){
+  const menu = document.getElementById('menuLinks');
+  menu.style.display = menu.style.display === 'flex' ? 'none' : 'flex';
+}
+</script>
+
 
   <div class="tab-content">
-   <div id="download" class="tab-pane">
-      <h2>Tải ứng dụng</h2>
+    <div id="download" class="tab-pane">
+      <h2>Tải Ứng Dụng</h2>
       <div class="game-card">
         <img src="https://i.ibb.co/MxfJN8NF/Cloud-Vip.png" alt="App Icon">
         <div>
           <h3>Cloud VIP</h3>
-          <p>Siêu Phẩm cloud x now.gg siu vip by Công Danh</p>
-          <p>E-mail liên hệ: danhnekk123@gmail.com</p>
-          <a class="btn-download" href="https://www.mediafire.com/file/owi13w1sbru9wix/app-release.apk/file"><span> Cài Đặt</span></a>
+          <p>Siu Phm cloud x now.gg siêu vip</p>
+          <a class="btn-download" href="https://www.mediafire.com/file/owi13w1sbru9wix/app-release.apk/file"><span> Ci t</span></a>
         </div>
       </div>
     </div>
@@ -67,7 +125,7 @@
         <div>
           <h3>Delta X</h3>
           <p>Phiên bản V2.684-Anti ban</p>
-          <a class="btn-download" href="https://www.mediafire.com/file/ty9jqwhqtl9kuwi/Delta-2.684.688_Cloud.apk/file" target="_blank">Tải ngay</a>
+          <a class="btn-download" href="https://www.mediafire.com/file/ty9jqwhqtl9kuwi/Delta-2.684.688_Cloud.apk/file" target="_blank"> Tải ngay</a>
         </div>
       </div>
       <div class="game-card">
@@ -75,7 +133,7 @@
         <div>
           <h3>Fluxus</h3>
           <p>Phiên bản V2.679-Anti ban</p>
-          <a class="btn-download" href="https://www.mediafire.com/file/ef4niemmzh8zweh/Fluxus.apk/file" target="_blank"> Tải ngay</a>
+          <a class="btn-download" href="https://www.mediafire.com/file/ef4niemmzh8zweh/Fluxus.apk/file" target="_blank"> Tải ngay</a>
         </div>
       </div>
       <div class="game-card">
@@ -83,7 +141,7 @@
         <div>
           <h3>Krnl</h3>
           <p>Phiên bản V2.684-Anti ban</p>
-          <a class="btn-download" href="https://www.mediafire.com/file/hpr0nj5v4arhbdr/Krnl_V2.684.688.apk/file" target="_blank"> Tải ngay</a>
+          <a class="btn-download" href="https://www.mediafire.com/file/hpr0nj5v4arhbdr/Krnl_V2.684.688.apk/file" target="_blank"> Tải ngay</a>
         </div>
       </div>
       <div class="game-card">
@@ -91,7 +149,7 @@
         <div>
           <h3>Arceus X</h3>
           <p>Phiên bản V1.7.7-Anti ban</p>
-          <a class="btn-download" href="https://www.mediafire.com/file/t3dle9kr1upmplb/Roblox+Arceus+X+NEO+1.7.7.apk/file" target="_blank"> Tải ngay</a>
+          <a class="btn-download" href="https://www.mediafire.com/file/t3dle9kr1upmplb/Roblox+Arceus+X+NEO+1.7.7.apk/file" target="_blank"> Tải ngay</a>
         </div>
       </div>
       <div class="game-card">
@@ -99,7 +157,7 @@
         <div>
           <h3>Code X</h3>
           <p>Phiên bản V2.683-Anti ban</p>
-          <a class="btn-download" href="https://www.mediafire.com/file/e99bgmnvlcamc49/Codex+V2.683.apk/file" target="_blank">Tải ngay</a>
+          <a class="btn-download" href="https://www.mediafire.com/file/e99bgmnvlcamc49/Codex+V2.683.apk/file" target="_blank"> Tải ngay</a>
         </div>
       </div>
       <div class="game-card">
@@ -108,7 +166,7 @@
           <h3>Trigon</h3>
           <p>No key</p>
           <p>Phiên bản V2.683-Anti ban</p>
-          <a class="btn-download" href="https://www.mediafire.com/file/hn4xmkoqug57rzs/Trigon_V2.683_Cloud.apk/file" target="_blank"> Tải ngay</a>
+          <a class="btn-download" href="https://www.mediafire.com/file/hn4xmkoqug57rzs/Trigon_V2.683_Cloud.apk/file" target="_blank"> Tải ngay</a>
         </div>
       </div>
       <div class="game-card">
@@ -116,7 +174,7 @@
         <div>
           <h3>Ronix</h3>
           <p>Phiên bản V2.684-Anti ban</p>
-          <a class="btn-download" href="https://www.mediafire.com/file/lzue638cucmc53o/Ronix_V2.682_Cloud.apk/file" target="_blank"> Tải ngay</a>
+          <a class="btn-download" href="https://www.mediafire.com/file/lzue638cucmc53o/Ronix_V2.682_Cloud.apk/file" target="_blank"> Tải ngay</a>
         </div>
       </div>
       <h2>Hack Roblox-VNG</h2>
@@ -125,7 +183,7 @@
         <div>
           <h3>Delta X VNG</h3>
           <p>Phiên bản V2.684-Anti ban</p>
-          <a class="btn-download" href="https://www.mediafire.com/file/cy7p4kyxsonkj51/Delta_Vng-2.684.688_Up.apk/file?dkey=xaa42z561ui&r=2000" target="_blank"> Tải ngay</a>
+          <a class="btn-download" href="https://www.mediafire.com/file/cy7p4kyxsonkj51/Delta_Vng-2.684.688_Up.apk/file?dkey=xaa42z561ui&r=2000" target="_blank"> Tải ngay</a>
         </div>
       </div>
       <div class="game-card">
@@ -133,7 +191,7 @@
         <div>
           <h3>Fluxus VNG</h3>
           <p>Phiên bản V2.684-Anti ban</p>
-          <a class="btn-download" href="https://www.mediafire.com/file/vvdsivlxa4npn9b/Fluxus_Vng-2.684.688_Up.apk/file?dkey=2ms11okyuu1&r=1971" target="_blank">Tải ngay</a>
+          <a class="btn-download" href="https://www.mediafire.com/file/vvdsivlxa4npn9b/Fluxus_Vng-2.684.688_Up.apk/file?dkey=2ms11okyuu1&r=1971" target="_blank"> Tải ngay</a>
         </div>
       </div>
       <div class="game-card">
@@ -141,7 +199,7 @@
         <div>
           <h3>Arceus VNG</h3>
           <p>Phiên bản V1.7.1-Anti ban</p>
-          <a class="btn-download" href="https://www.mediafire.com/file/cf5xm2qg5l3u309/Roblox_-_VNG_Arceus_X_NEO_1.7.1.apk/file" target="_blank"> Tải ngay</a>
+          <a class="btn-download" href="https://www.mediafire.com/file/cf5xm2qg5l3u309/Roblox_-_VNG_Arceus_X_NEO_1.7.1.apk/file" target="_blank"> Tải ngay</a>
         </div>
       </div>
       <div class="game-card">
@@ -149,7 +207,7 @@
         <div>
           <h3>Krnl VNG</h3>
           <p>Phiên bản V2.684-Anti ban</p>
-          <a class="btn-download" href="https://www.mediafire.com/file/xcn9saj3qzyjv13/Krnl_Vng-2.684.688_Up.apk/file" target="_blank"> Tải ngay</a>
+          <a class="btn-download" href="https://www.mediafire.com/file/xcn9saj3qzyjv13/Krnl_Vng-2.684.688_Up.apk/file" target="_blank"> Tải ngay</a>
         </div>
       </div>
       <div class="game-card">
@@ -157,29 +215,39 @@
         <div>
           <h3>Code X VNG</h3>
           <p>Phiên bản V2.680-Anti ban</p>
-          <a class="btn-download" href="https://www.mediafire.com/file/r579c2u6g2rgh0l/Codex_v2.680.apk/file" target="_blank"> Tải ngay</a>
+          <a class="btn-download" href="https://www.mediafire.com/file/r579c2u6g2rgh0l/Codex_v2.680.apk/file" target="_blank"> Tải ngay</a>
         </div>
       </div>
-
-   <div id="updates" class="tab-pane updates">
-      <h2>Cập nhật</h2>
-      <div class="update"><strong>Phiên bản 1.0</strong> - Thêm nhiều app không lỗi tải app</div>
+      <h1>Admin sẽ cập nhật hack mới nhất ở đây nhé!</h1>
     </div>
 
-   <div id="note" class="tab-pane">
+    <div id="updates" class="tab-pane updates">
+      <h2>Cập Nhật Mới Nhất</h2>
+      <div class="update"><strong>Phiên bản 1.0</strong> - Thêm nhiều app ngon, không lỗi — tải tại đây.</div>
+    </div>
+
+    <div id="note" class="tab-pane">
       <h2>Gửi văn bản & Sao chép</h2>
       <iframe src="https://notevn.com"></iframe>
-      <p>Hướng dẫn: Ấn vào dấu cộng và ghi những gì muốn chuyển vào cloud và ấn vào icon bút và đặt tên cho ghi chú muốn chuyển là xong việc còn lại vào cloud truy cập web này và nhập lại tên ghi chú vừa đặt thì sẽ hiện vẵn bản bạn muốn chuyển</p>
+      <p>Hướng dẫn: Nhập nội dung bạn muốn lưu vào khung, đặt tên cho ghi chú rồi nhấn "Lưu" để chuyển vào cloud. Để mở lại, truy cập notevn.com và nhập tên ghi chú đã đặt — nội dung sẽ hiển thị.</p>
     </div>
+  </div>
   
   <div id="howtousevpn" class="tab-pane">
       <h2>Cách sử dụng thiết bị VPN</h2>
-      <iframe src="https://streamable.com/iahbl5?src=player-page-share "></iframe>
-      <p>Tải app bên dưới <p>
+      <iframe src="https://streamable.com/iahbl5?src=player-page-share"></iframe>
+      <p>Tải App VPN bên dưới</p>
       	<div class="game-card">
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi7uNU25dBxYev9Wkvd0lkEmwVlRtyXdcz_So3WqXO2w&s" alt="Hack App 2">
         <div>
         	<h3>Kiwi Vpn</h3>
-      	<a class="btn-download" href="https://www.mediafire.com/file/r579c2u6g2rgh0l/Codex_v2.680.apk/file" target="_blank"> Tải ngay vpn</a>
+      	<a class="btn-download" href="https://www.mediafire.com/file/r579c2u6g2rgh0l/Codex_v2.680.apk/file" target="_blank"> Tải ngay vpn</a>
       <div>
     <div>
+      	
+
+  <footer>
+     2025 Gaming VIP. All rights reserved.
+  </footer>
+</body>
+</html>
