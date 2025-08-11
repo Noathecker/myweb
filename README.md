@@ -244,10 +244,4 @@ function toggleMenu(){
       	<a class="btn-download" href="https://www.mediafire.com/file/r579c2u6g2rgh0l/Codex_v2.680.apk/file" target="_blank"> Tải ngay vpn</a>
       <div>
     <div>
-      	
-
-  <footer>
-     2025 Gaming VIP. All rights reserved.
-  </footer>
-</body>
-</html>
+     
