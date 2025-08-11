@@ -160,8 +160,6 @@
           <a class="btn-download" href="https://www.mediafire.com/file/r579c2u6g2rgh0l/Codex_v2.680.apk/file" target="_blank"> Tải ngay</a>
         </div>
       </div>
-      <h1>Ad sẽ cập nhật hack ở đây nhé<h1>
-    </div>
 
     <div id="updates" class="tab-pane updates">
       <h2>Cập nhật</h2>
