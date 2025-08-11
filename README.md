@@ -235,7 +235,7 @@ function toggleMenu(){
   
   <div id="howtousevpn" class="tab-pane">
       <h2>Cách sử dụng thiết bị VPN</h2>
-      <iframe src="https://streamable.com/iahbl5?src=player-page-share"></iframe>
+      <iframe src="https://drive.google.com/file/d/1YNkb7mMqEe5190uLm4iFRYSbD2k8mX4y/preview" width="640" height="480" allow="autoplay"></iframe>
       <p>Tải App VPN bên dưới</p>
       	<div class="game-card">
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi7uNU25dBxYev9Wkvd0lkEmwVlRtyXdcz_So3WqXO2w&s" alt="Hack App 2">
