@@ -161,12 +161,12 @@
         </div>
       </div>
 
-    <div id="updates" class="tab-pane updates">
+   <div id="updates" class="tab-pane updates">
       <h2>Cập nhật</h2>
       <div class="update"><strong>Phiên bản 1.0</strong> - Thêm nhiều app không lỗi tải app</div>
     </div>
 
-    <div id="note" class="tab-pane">
+   <div id="note" class="tab-pane">
       <h2>Gửi văn bản & Sao chép</h2>
       <iframe src="https://notevn.com"></iframe>
       <p>Hướng dẫn: Ấn vào dấu cộng và ghi những gì muốn chuyển vào cloud và ấn vào icon bút và đặt tên cho ghi chú muốn chuyển là xong việc còn lại vào cloud truy cập web này và nhập lại tên ghi chú vừa đặt thì sẽ hiện vẵn bản bạn muốn chuyển</p>
@@ -184,6 +184,3 @@
       	<a class="btn-download" href="https://www.mediafire.com/file/r579c2u6g2rgh0l/Codex_v2.680.apk/file" target="_blank"> Tải ngay vpn</a>
       <div>
     <div>
- 
-</body>
-</html>
