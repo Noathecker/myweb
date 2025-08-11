@@ -112,8 +112,8 @@ function toggleMenu(){
         <img src="https://i.ibb.co/MxfJN8NF/Cloud-Vip.png" alt="App Icon">
         <div>
           <h3>Cloud VIP</h3>
-          <p>Siu Phm cloud x now.gg siêu vip</p>
-          <a class="btn-download" href="https://www.mediafire.com/file/owi13w1sbru9wix/app-release.apk/file"><span> Ci t</span></a>
+          <p>Siu Phẩm cloud x now.gg siêu vip</p>
+          <a class="btn-download" href="https://www.mediafire.com/file/owi13w1sbru9wix/app-release.apk/file"><span>Cài đặt</span></a>
         </div>
       </div>
     </div>
