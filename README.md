@@ -241,7 +241,7 @@ function toggleMenu(){
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi7uNU25dBxYev9Wkvd0lkEmwVlRtyXdcz_So3WqXO2w&s" alt="Hack App 2">
         <div>
         	<h3>Kiwi Vpn</h3>
-      	<a class="btn-download" href="https://www.mediafire.com/file/r579c2u6g2rgh0l/Codex_v2.680.apk/file" target="_blank"> Tải ngay vpn</a>
+      	<a class="btn-download" href="https://www.mediafire.com/file/r7rxhthhezw364q/Kiwi_VPN_MOB.apk/file" target="_blank"> Tải ngay vpn</a>
       <div>
     <div>
      
